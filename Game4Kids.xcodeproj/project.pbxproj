@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0EEBD81E0426A200E70087 /* GameFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0EEBD71E0426A200E70087 /* GameFourViewController.swift */; };
+		EA0EEBDA1E042EA100E70087 /* ke ve minh.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA0EEBD91E042EA100E70087 /* ke ve minh.wav */; };
+		EA0EEBDC1E042F2B00E70087 /* ke lai that hay.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA0EEBDB1E042F2B00E70087 /* ke lai that hay.wav */; };
+		EA23B3F91E04BE7200D69287 /* FireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B3F81E04BE7200D69287 /* FireViewController.swift */; };
+		EA23B3FB1E04D59200D69287 /* NguoiLaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B3FA1E04D59200D69287 /* NguoiLaViewController.swift */; };
+		EA23B3FD1E04DA5B00D69287 /* DilacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B3FC1E04DA5B00D69287 /* DilacViewController.swift */; };
+		EA23B4001E050A3A00D69287 /* PrepareFireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B3FF1E050A3A00D69287 /* PrepareFireViewController.swift */; };
+		EA23B4031E050AFC00D69287 /* neu la be.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA23B4011E050AFC00D69287 /* neu la be.wav */; };
+		EA23B4041E050AFC00D69287 /* noi cac tranh.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA23B4021E050AFC00D69287 /* noi cac tranh.wav */; };
+		EA23B4061E050C2E00D69287 /* PrepareNguoiLaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B4051E050C2E00D69287 /* PrepareNguoiLaViewController.swift */; };
+		EA23B4081E050CC700D69287 /* PrepareDilacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23B4071E050CC700D69287 /* PrepareDilacViewController.swift */; };
+		EA47D1FB1E053270003E4A7A /* xep tranh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA47D1FA1E053270003E4A7A /* xep tranh.mp3 */; };
+		EA47D1FD1E0539B9003E4A7A /* nhin tranh va ke.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA47D1FC1E0539B9003E4A7A /* nhin tranh va ke.wav */; };
+		EA701C3B1E002B32009B3F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA701C3A1E002B32009B3F3D /* AppDelegate.swift */; };
+		EA701C3D1E002B32009B3F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA701C3C1E002B32009B3F3D /* ViewController.swift */; };
+		EA701C401E002B32009B3F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA701C3E1E002B32009B3F3D /* Main.storyboard */; };
+		EA701C421E002B32009B3F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA701C411E002B32009B3F3D /* Assets.xcassets */; };
+		EA701C451E002B32009B3F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA701C431E002B32009B3F3D /* LaunchScreen.storyboard */; };
+		EA701C4E1E002D4D009B3F3D /* GameTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA701C4D1E002D4D009B3F3D /* GameTwoViewController.swift */; };
+		EA701C511E003812009B3F3D /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA701C501E003812009B3F3D /* Array.swift */; };
+		EA701C531E00392E009B3F3D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA701C521E00392E009B3F3D /* GameViewController.swift */; };
+		EA77508D1E02CBC80004A26D /* xep tranh.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA77508C1E02CBC80004A26D /* xep tranh.wav */; };
+		EA77508F1E02CDDC0004A26D /* thieu ket thuc.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA77508E1E02CDDC0004A26D /* thieu ket thuc.wav */; };
+		EA7750911E02D7410004A26D /* GameThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7750901E02D7410004A26D /* GameThreeViewController.swift */; };
+		EA7750931E02D7B60004A26D /* ke lai day du.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA7750921E02D7B60004A26D /* ke lai day du.wav */; };
+		EAC4450D1E01823500D19D40 /* AllFallDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC4450C1E01823500D19D40 /* AllFallDown.mp3 */; };
+		EAC4450F1E01866E00D19D40 /* GameTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC4450E1E01866E00D19D40 /* GameTargetViewController.swift */; };
+		EAC445111E01869400D19D40 /* ve voi me.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC445101E01869400D19D40 /* ve voi me.wav */; };
+		EAC445131E0188E700D19D40 /* dung roi.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC445121E0188E700D19D40 /* dung roi.wav */; };
+		EAC445151E0188EE00D19D40 /* thu cach khac.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC445141E0188EE00D19D40 /* thu cach khac.wav */; };
+		EAC445181E01891500D19D40 /* be that gioi.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC445161E01891500D19D40 /* be that gioi.wav */; };
+		EAC445191E01891500D19D40 /* dong vai.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC445171E01891500D19D40 /* dong vai.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA0EEBD71E0426A200E70087 /* GameFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameFourViewController.swift; sourceTree = "<group>"; };
+		EA0EEBD91E042EA100E70087 /* ke ve minh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ke ve minh.wav"; sourceTree = "<group>"; };
+		EA0EEBDB1E042F2B00E70087 /* ke lai that hay.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ke lai that hay.wav"; sourceTree = "<group>"; };
+		EA23B3F81E04BE7200D69287 /* FireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireViewController.swift; sourceTree = "<group>"; };
+		EA23B3FA1E04D59200D69287 /* NguoiLaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NguoiLaViewController.swift; sourceTree = "<group>"; };
+		EA23B3FC1E04DA5B00D69287 /* DilacViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DilacViewController.swift; sourceTree = "<group>"; };
+		EA23B3FF1E050A3A00D69287 /* PrepareFireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareFireViewController.swift; sourceTree = "<group>"; };
+		EA23B4011E050AFC00D69287 /* neu la be.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "neu la be.wav"; sourceTree = "<group>"; };
+		EA23B4021E050AFC00D69287 /* noi cac tranh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "noi cac tranh.wav"; sourceTree = "<group>"; };
+		EA23B4051E050C2E00D69287 /* PrepareNguoiLaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareNguoiLaViewController.swift; sourceTree = "<group>"; };
+		EA23B4071E050CC700D69287 /* PrepareDilacViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepareDilacViewController.swift; sourceTree = "<group>"; };
+		EA47D1FA1E053270003E4A7A /* xep tranh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "xep tranh.mp3"; sourceTree = "<group>"; };
+		EA47D1FC1E0539B9003E4A7A /* nhin tranh va ke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "nhin tranh va ke.wav"; sourceTree = "<group>"; };
+		EA701C371E002B32009B3F3D /* Game4Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game4Kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA701C3A1E002B32009B3F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA701C3C1E002B32009B3F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA701C3F1E002B32009B3F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA701C411E002B32009B3F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA701C441E002B32009B3F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA701C461E002B32009B3F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA701C4D1E002D4D009B3F3D /* GameTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTwoViewController.swift; sourceTree = "<group>"; };
+		EA701C501E003812009B3F3D /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		EA701C521E00392E009B3F3D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA77508C1E02CBC80004A26D /* xep tranh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "xep tranh.wav"; sourceTree = "<group>"; };
+		EA77508E1E02CDDC0004A26D /* thieu ket thuc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "thieu ket thuc.wav"; sourceTree = "<group>"; };
+		EA7750901E02D7410004A26D /* GameThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameThreeViewController.swift; sourceTree = "<group>"; };
+		EA7750921E02D7B60004A26D /* ke lai day du.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ke lai day du.wav"; sourceTree = "<group>"; };
+		EAC4450C1E01823500D19D40 /* AllFallDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AllFallDown.mp3; sourceTree = "<group>"; };
+		EAC4450E1E01866E00D19D40 /* GameTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTargetViewController.swift; sourceTree = "<group>"; };
+		EAC445101E01869400D19D40 /* ve voi me.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ve voi me.wav"; sourceTree = "<group>"; };
+		EAC445121E0188E700D19D40 /* dung roi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dung roi.wav"; sourceTree = "<group>"; };
+		EAC445141E0188EE00D19D40 /* thu cach khac.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "thu cach khac.wav"; sourceTree = "<group>"; };
+		EAC445161E01891500D19D40 /* be that gioi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "be that gioi.wav"; sourceTree = "<group>"; };
+		EAC445171E01891500D19D40 /* dong vai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dong vai.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA701C341E002B32009B3F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA23B3FE1E050A1400D69287 /* PrepareView */ = {
+			isa = PBXGroup;
+			children = (
+				EA23B3FF1E050A3A00D69287 /* PrepareFireViewController.swift */,
+				EA23B4051E050C2E00D69287 /* PrepareNguoiLaViewController.swift */,
+				EA23B4071E050CC700D69287 /* PrepareDilacViewController.swift */,
+			);
+			name = PrepareView;
+			sourceTree = "<group>";
+		};
+		EA701C2E1E002B32009B3F3D = {
+			isa = PBXGroup;
+			children = (
+				EA701C391E002B32009B3F3D /* Game4Kids */,
+				EA701C381E002B32009B3F3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA701C381E002B32009B3F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA701C371E002B32009B3F3D /* Game4Kids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA701C391E002B32009B3F3D /* Game4Kids */ = {
+			isa = PBXGroup;
+			children = (
+				EAC4450B1E01819400D19D40 /* Music */,
+				EA701C4F1E0037D4009B3F3D /* Extensions */,
+				EA701C4C1E002D27009B3F3D /* View */,
+				EA701C3A1E002B32009B3F3D /* AppDelegate.swift */,
+				EA701C3C1E002B32009B3F3D /* ViewController.swift */,
+				EA701C3E1E002B32009B3F3D /* Main.storyboard */,
+				EA701C411E002B32009B3F3D /* Assets.xcassets */,
+				EA701C431E002B32009B3F3D /* LaunchScreen.storyboard */,
+				EA701C461E002B32009B3F3D /* Info.plist */,
+			);
+			path = Game4Kids;
+			sourceTree = "<group>";
+		};
+		EA701C4C1E002D27009B3F3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA23B3FE1E050A1400D69287 /* PrepareView */,
+				EA701C521E00392E009B3F3D /* GameViewController.swift */,
+				EAC4450E1E01866E00D19D40 /* GameTargetViewController.swift */,
+				EA701C4D1E002D4D009B3F3D /* GameTwoViewController.swift */,
+				EA7750901E02D7410004A26D /* GameThreeViewController.swift */,
+				EA0EEBD71E0426A200E70087 /* GameFourViewController.swift */,
+				EA23B3F81E04BE7200D69287 /* FireViewController.swift */,
+				EA23B3FA1E04D59200D69287 /* NguoiLaViewController.swift */,
+				EA23B3FC1E04DA5B00D69287 /* DilacViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EA701C4F1E0037D4009B3F3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA701C501E003812009B3F3D /* Array.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		EAC4450B1E01819400D19D40 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				EAC4450C1E01823500D19D40 /* AllFallDown.mp3 */,
+				EAC445101E01869400D19D40 /* ve voi me.wav */,
+				EAC445121E0188E700D19D40 /* dung roi.wav */,
+				EAC445141E0188EE00D19D40 /* thu cach khac.wav */,
+				EAC445161E01891500D19D40 /* be that gioi.wav */,
+				EAC445171E01891500D19D40 /* dong vai.wav */,
+				EA77508C1E02CBC80004A26D /* xep tranh.wav */,
+				EA77508E1E02CDDC0004A26D /* thieu ket thuc.wav */,
+				EA7750921E02D7B60004A26D /* ke lai day du.wav */,
+				EA0EEBD91E042EA100E70087 /* ke ve minh.wav */,
+				EA0EEBDB1E042F2B00E70087 /* ke lai that hay.wav */,
+				EA23B4011E050AFC00D69287 /* neu la be.wav */,
+				EA23B4021E050AFC00D69287 /* noi cac tranh.wav */,
+				EA47D1FA1E053270003E4A7A /* xep tranh.mp3 */,
+				EA47D1FC1E0539B9003E4A7A /* nhin tranh va ke.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA701C361E002B32009B3F3D /* Game4Kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA701C491E002B32009B3F3D /* Build configuration list for PBXNativeTarget "Game4Kids" */;
+			buildPhases = (
+				EA701C331E002B32009B3F3D /* Sources */,
+				EA701C341E002B32009B3F3D /* Frameworks */,
+				EA701C351E002B32009B3F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Game4Kids;
+			productName = Game4Kids;
+			productReference = EA701C371E002B32009B3F3D /* Game4Kids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA701C2F1E002B32009B3F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kha;
+				TargetAttributes = {
+					EA701C361E002B32009B3F3D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PD66V8DP68;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA701C321E002B32009B3F3D /* Build configuration list for PBXProject "Game4Kids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA701C2E1E002B32009B3F3D;
+			productRefGroup = EA701C381E002B32009B3F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA701C361E002B32009B3F3D /* Game4Kids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA701C351E002B32009B3F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0EEBDC1E042F2B00E70087 /* ke lai that hay.wav in Resources */,
+				EAC445151E0188EE00D19D40 /* thu cach khac.wav in Resources */,
+				EA77508D1E02CBC80004A26D /* xep tranh.wav in Resources */,
+				EA7750931E02D7B60004A26D /* ke lai day du.wav in Resources */,
+				EA701C451E002B32009B3F3D /* LaunchScreen.storyboard in Resources */,
+				EA0EEBDA1E042EA100E70087 /* ke ve minh.wav in Resources */,
+				EAC4450D1E01823500D19D40 /* AllFallDown.mp3 in Resources */,
+				EA23B4041E050AFC00D69287 /* noi cac tranh.wav in Resources */,
+				EAC445191E01891500D19D40 /* dong vai.wav in Resources */,
+				EA23B4031E050AFC00D69287 /* neu la be.wav in Resources */,
+				EAC445131E0188E700D19D40 /* dung roi.wav in Resources */,
+				EA47D1FD1E0539B9003E4A7A /* nhin tranh va ke.wav in Resources */,
+				EAC445181E01891500D19D40 /* be that gioi.wav in Resources */,
+				EA77508F1E02CDDC0004A26D /* thieu ket thuc.wav in Resources */,
+				EAC445111E01869400D19D40 /* ve voi me.wav in Resources */,
+				EA701C421E002B32009B3F3D /* Assets.xcassets in Resources */,
+				EA47D1FB1E053270003E4A7A /* xep tranh.mp3 in Resources */,
+				EA701C401E002B32009B3F3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA701C331E002B32009B3F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA701C531E00392E009B3F3D /* GameViewController.swift in Sources */,
+				EAC4450F1E01866E00D19D40 /* GameTargetViewController.swift in Sources */,
+				EA701C3D1E002B32009B3F3D /* ViewController.swift in Sources */,
+				EA23B4061E050C2E00D69287 /* PrepareNguoiLaViewController.swift in Sources */,
+				EA23B4081E050CC700D69287 /* PrepareDilacViewController.swift in Sources */,
+				EA701C511E003812009B3F3D /* Array.swift in Sources */,
+				EA23B3FD1E04DA5B00D69287 /* DilacViewController.swift in Sources */,
+				EA0EEBD81E0426A200E70087 /* GameFourViewController.swift in Sources */,
+				EA23B4001E050A3A00D69287 /* PrepareFireViewController.swift in Sources */,
+				EA23B3F91E04BE7200D69287 /* FireViewController.swift in Sources */,
+				EA23B3FB1E04D59200D69287 /* NguoiLaViewController.swift in Sources */,
+				EA701C3B1E002B32009B3F3D /* AppDelegate.swift in Sources */,
+				EA701C4E1E002D4D009B3F3D /* GameTwoViewController.swift in Sources */,
+				EA7750911E02D7410004A26D /* GameThreeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA701C3E1E002B32009B3F3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA701C3F1E002B32009B3F3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA701C431E002B32009B3F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA701C441E002B32009B3F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA701C471E002B32009B3F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA701C481E002B32009B3F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA701C4A1E002B32009B3F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PD66V8DP68;
+				INFOPLIST_FILE = Game4Kids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KhaHo.Game4Kids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA701C4B1E002B32009B3F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PD66V8DP68;
+				INFOPLIST_FILE = Game4Kids/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KhaHo.Game4Kids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA701C321E002B32009B3F3D /* Build configuration list for PBXProject "Game4Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA701C471E002B32009B3F3D /* Debug */,
+				EA701C481E002B32009B3F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA701C491E002B32009B3F3D /* Build configuration list for PBXNativeTarget "Game4Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA701C4A1E002B32009B3F3D /* Debug */,
+				EA701C4B1E002B32009B3F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA701C2F1E002B32009B3F3D /* Project object */;
+}
